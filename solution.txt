@@ -1,0 +1,13 @@
+git clone https://github.com/s18957/epg1_git
+cd epg_git/
+git branch hw-19170
+git checkout rebase-me
+git rebase hw-19170
+git checkout hw-19170
+git merge merge-me
+git checkout rebase-me
+git checkout hw-19170
+git merge merge-me
+git add README.md
+git commit -m "first_try"
+
